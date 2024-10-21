@@ -1,0 +1,32 @@
+.Blog-item {
+  border-radius: 8px;
+  background-color: rgb(171, 189, 189);
+  margin: 10px 20px;
+  padding: 0px 0px 10px 10px;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.Blog-item p {
+  margin: 5px;
+}
+
+h3 {
+  text-transform: capitalize;
+  color: #1183b2;
+}
+
+h5 {
+  font-weight: normal;
+  font-style: italic;
+  margin: 0px 0px 0px 5px;
+}
+
+.Topic-container {
+  padding: 5px;
+  border-color: black;
+  border-radius: 20px;
+  border-width: thin;
+  border-style: solid;
+}
