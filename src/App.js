@@ -1,9 +1,11 @@
 import "./App.css";
-import HeaderContent from "./header/HeaderContent";
+import HeaderContent from "./components/header/HeaderContent";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./home/Home";
-import AddBlog from "./addBlog/AddBlog";
+import Home from "./components/home/Home";
+import AddBlog from "./components/addBlog/AddBlog";
+import Blog from "./components/blog/Blog";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="addBlog" element={<AddBlog />} />
+              <Route path="/addBlog" element={<AddBlog />} />
+              <Route path="/blogs/:id" element={<Blog />} />
+              <Route path="/about" element={<About/>} />
             </Routes>
           </div>
         </div>

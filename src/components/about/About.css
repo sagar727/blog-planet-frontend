@@ -1,0 +1,17 @@
+.About-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: fixed;
+  top: 8rem;
+  left: 8rem;
+  right: 8rem;
+  text-align: justify;
+}
+
+.About-container h3 {
+  text-transform: capitalize;
+  color: #1183b2;
+  align-self: center;
+}

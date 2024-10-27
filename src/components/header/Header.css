@@ -1,23 +1,29 @@
 .image {
   width: 100px;
   height: 100px;
-  margin-right: 10px;
 }
 
 .App-header {
+  position: fixed;
+  top: 0; /* Keep the header at the top of the viewport */
+  left: 0; /* Reset left and right for full-width */
+  right: 0;
+  z-index: 1000; /* Higher stacking order to stay on top of other content */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px + 2vmin);
   color: #1183b2;
+  background-color: white;
+  padding: 0rem 8rem; /* Padding to control width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for emphasis */
 }
 
 .Title-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
 }
 
 .Link-container {
@@ -25,12 +31,10 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  margin-right: 10px;
 }
 
 a {
   text-decoration: none;
-  margin-left: 10px;
   padding: 5px;
   border-radius: 5px;
   color: #000000;

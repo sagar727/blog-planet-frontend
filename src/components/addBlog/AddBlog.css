@@ -1,0 +1,67 @@
+.Blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.Form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30px;
+  background: rgba(229, 219, 207, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.8px);
+  -webkit-backdrop-filter: blur(11.8px);
+  border: 1px solid rgba(229, 219, 207, 0.47);
+}
+
+.Form-container label {
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+.Form-container textArea {
+  height: 300px;
+  resize: none;
+  text-align: justify;
+}
+
+.Text-size-container h5 {
+  display: flex;
+  justify-content: end;
+  width: 500px;
+}
+
+.Form-container button {
+  background-color: #1183b2;
+  color: white;
+  padding: 10px;
+  border-radius: 16px;
+  align-self: center;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+
+.Blog-container h3 {
+  text-transform: capitalize;
+  color: #1183b2;
+}
+
+.Form-container input,
+select,
+textArea {
+  font: 1.25rem / 1.5;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #1183b2;
+  border-radius: 6px;
+}
